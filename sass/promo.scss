@@ -1,0 +1,92 @@
+.promo {
+}
+
+.promo-row {
+    display: flex;
+    justify-content: center;
+}
+.promo-row-mail {
+    display: flex;
+    align-items: center;
+}
+.promo-card {
+    background-color: $accent;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-right: 45px;
+    padding-left: 45px;
+    width: auto;
+    max-height: 220px;
+
+}
+.promo-row-mail_content {
+    max-width: 260px;
+    margin-right: 65px;
+}
+.promo-row-mail__content-header, .promo-row-map__content-header  {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #FFF;
+}
+
+.promo-row-mail__content-header {
+    margin-bottom: 8px;
+}
+
+.promo-row-mail__content-text, .promo-row-map__content-text  {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+
+    color: #FFF;
+}
+
+.promo-row-mail__content-text {
+    margin-bottom: 15px;
+}
+
+.promo-row-mail__content-input {
+
+    width: 225px;
+    height: 35px;
+    padding-left: 15px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    margin-bottom: 10px;
+
+    font-size: 14px;
+    line-height: 35px;
+    color: #C4C4C4;
+}
+
+.promo-row-mail__content-description {
+    max-width: 205px;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 115%;
+
+    color: #FFF;
+    opacity: 0.5;
+    & > a {
+        color: #FFF;
+        opacity: 0.5;
+    }
+}
+
+
+
+.promo-row-mail__submit {
+width:  140px;  // длина кнопки
+height: 140px; // высота кнопки
+border: none;
+background-image: url("../img/icons/envelope.svg");
+background-color: transparent;
+cursor: pointer;
+cursor: hand;
+}
+
+
